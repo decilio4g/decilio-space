@@ -1,0 +1,19 @@
+.container {
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: center;
+  padding: 3rem 4rem 8rem;
+
+  background: url("/images/back.png") 50% 50% repeat-x;
+}
+.padding {
+  margin-left: 1.4rem;
+}
+
+@media (max-width: 720px) {
+  .container {
+    img {
+      display: none;
+    }
+  }
+}

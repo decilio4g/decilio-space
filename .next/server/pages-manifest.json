@@ -1,10 +1,11 @@
 {
-  "/[...hash]": "pages/[...hash].js",
   "/_app": "pages/_app.js",
-  "/_documents": "pages/_documents.js",
-  "/help": "pages/help.html",
-  "/": "pages/index.html",
-  "/_error": "pages/_error.js",
   "/_document": "pages/_document.js",
-  "/404": "pages/404.html"
+  "/_error": "pages/_error.js",
+  "/canil": "pages/canil.js",
+  "/": "pages/index.js",
+  "/parceiros": "pages/parceiros.js",
+  "/plantel": "pages/plantel.js",
+  "/contato": "pages/contato.js",
+  "/next/dist/pages/_error": "pages/next/dist/pages/_error.js"
 }

@@ -1,0 +1,88 @@
+.wapper {
+  display: flex;
+  flex-direction: column;
+  background: url("/images/back-4.png") 8% 50% repeat-y;
+  @media (max-width: 720px) {
+    background: none;
+  }
+}
+
+.content {
+  display: flex;
+  max-width: 1120px;
+  margin: 0 auto;
+
+  padding: 80px 0 20px;
+
+  @media (max-width: 720px) {
+    flex-direction: column;
+  }
+}
+
+@media (max-width: 720px) {
+  #imgprincipal {
+    width: 370px !important;
+    height: 250px !important;
+  }
+}
+
+#imgprincipal {
+  width: 455px;
+  height: 299px;
+  margin-top: 25px;
+  object-fit: cover;
+}
+
+.wrapperImg {
+  img {
+    width: 130px;
+    height: 89px;
+    margin-left: 14px;
+    margin-top: 15px;
+    object-fit: cover;
+  }
+}
+
+.list {
+  li {
+    margin-top: 20px;
+    list-style: none;
+    display: flex;
+    align-items: center;
+  }
+}
+
+.border {
+  display: inline-block;
+  width: 30px;
+  height: 30px;
+  display: flex;
+  align-items: cener;
+  justify-content: center;
+  border-radius: 15px;
+  flex-direction: column;
+  align-items: center;
+  background: #b76719;
+  color: white;
+}
+
+.green1 {
+  margin: 0 10px;
+  color: #b76719;
+}
+
+.text {
+  @media (max-width: 720px) {
+    margin-left: 0;
+    padding: 0 1rem;
+  }
+  margin-left: 40px;
+
+  h2 {
+    margin-bottom: 1rem;
+  }
+}
+
+.buttonWrapper {
+  margin-top: 2rem;
+}

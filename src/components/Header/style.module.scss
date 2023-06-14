@@ -1,0 +1,145 @@
+.header {
+  background-color: #191919;
+}
+
+.container {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+
+  background-color: #191919;
+  height: 8rem;
+
+  margin: 0 auto;
+  max-width: 1280px;
+}
+
+.containerImage {
+  img {
+    width: 11rem;
+  }
+}
+
+.toggle {
+  display: none;
+
+  @media screen and( max-width: 762px) {
+    display: inherit;
+  }
+
+  margin-right: 3rem;
+}
+
+.ListItem {
+  @media screen and( max-width: 762px) {
+    display: none;
+  }
+
+  display: flex;
+
+  list-style: none;
+
+  .active {
+    background: #b76719 !important;
+    border-radius: 355px 45px 225px 75px/15px 225px 15px 255px;
+
+    .icon {
+      color: #fff !important;
+    }
+  }
+}
+
+.Item {
+  margin-right: 15px;
+
+  display: flex;
+  align-items: center;
+
+  color: #fff;
+  font-size: 1rem;
+  font-weight: 700;
+
+  font-family: "Quicksand", sans-serif;
+  transition: all 0.2s ease-in-out;
+  padding: 1.5rem 1.5rem;
+
+  div {
+    margin-right: 0.4rem;
+  }
+  &:hover {
+    background: #b76719 !important;
+    border-radius: 355px 45px 225px 75px/15px 225px 15px 255px;
+    transform: scale(0.8);
+
+    .icon {
+      color: #fff !important;
+    }
+  }
+}
+
+.submenu {
+  display: flex;
+  align-items: center;
+
+  padding: 0.93rem 1.5rem;
+}
+
+.teste {
+  button {
+    p {
+      text-transform: initial;
+      color: #fff;
+      font-weight: 700;
+      margin-bottom: 0;
+      font-family: "Quicksand", sans-serif;
+      transition: all 0.2s ease-in-out;
+
+      &:hover {
+        background: #8c5d01 !important;
+        border-radius: 355px 45px 225px 75px/15px 225px 15px 255px;
+      }
+    }
+  }
+}
+
+.textOfHover {
+  &:hover {
+    background: #8c5d01 !important;
+    border-radius: 355px 45px 225px 75px/15px 225px 15px 255px;
+  }
+}
+
+.collapse {
+  @media screen and( max-width: 762px) {
+    display: inherit;
+    // text-align: end;
+  }
+  display: none;
+}
+
+.itemCollapse {
+  background-color: #eae7e7;
+  color: #777;
+
+  margin: 0 !important;
+  padding: 1rem;
+  border-bottom: 0.1px solid #999;
+
+  cursor: pointer;
+
+  span {
+    font-size: 1.2rem;
+    font-family: Roboto, sans-serif;
+    font-weight: 700;
+    display: inline;
+    &:hover {
+      color: #8c5d01 !important;
+    }
+  }
+}
+
+.menu {
+  ul {
+    width: 100% !important;
+  }
+}
