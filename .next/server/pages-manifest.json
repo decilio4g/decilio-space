@@ -1,0 +1,10 @@
+{
+  "/[...hash]": "pages/[...hash].js",
+  "/_app": "pages/_app.js",
+  "/_documents": "pages/_documents.js",
+  "/help": "pages/help.html",
+  "/": "pages/index.html",
+  "/_error": "pages/_error.js",
+  "/_document": "pages/_document.js",
+  "/404": "pages/404.html"
+}
