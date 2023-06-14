@@ -15,15 +15,15 @@ const DynamicPage = ({ query, title}: IDynamicPage) => {
   return <ProductPage title={title} query={query?.hash[0] || 'Produto não encontrado'}  />
 };
 
-// export async function getServerSideProps(ctx: DocumentContext) {
-//   const {query } = ctx;
+export async function getServerSideProps(ctx: DocumentContext) {
+  const {query } = ctx;
 
-//   return {
-//     props: {
-//       query,
-//       title: 'Página de produto',
-//     }
-//   }
-// }
+  return {
+    props: {
+      query,
+      title: 'Página de produto',
+    }
+  }
+}
 
 export default DynamicPage
