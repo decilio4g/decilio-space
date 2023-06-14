@@ -2,10 +2,5 @@
   "/_app": "pages/_app.js",
   "/_document": "pages/_document.js",
   "/_error": "pages/_error.js",
-  "/canil": "pages/canil.js",
-  "/": "pages/index.js",
-  "/parceiros": "pages/parceiros.js",
-  "/plantel": "pages/plantel.js",
-  "/contato": "pages/contato.js",
-  "/next/dist/pages/_error": "pages/next/dist/pages/_error.js"
+  "/": "pages/index.js"
 }
